@@ -1,3 +1,7 @@
+# Create a self-updating clock that also display a cute
+# kitten image from placekitten APIs.
+# To run this file: python image_clock.py
+
 import PySimpleGUIQt as sg
 import requests
 from PIL import Image
