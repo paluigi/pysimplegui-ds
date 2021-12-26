@@ -13,7 +13,7 @@ window = sg.Window("Time", time_layout)
 
 while True:
     event, values = window.read(timeout=10)
-    if event == sg.WIN_CLOSED or event == 'Exit': # if user closes window or clicks cancel
+    if event == sg.WIN_CLOSED or event == 'Exit':
         break
     new_time_text = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     window["time"].update(new_time_text)
